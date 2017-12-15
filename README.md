@@ -32,7 +32,7 @@ Microsoft Visual Studio es un entorno de desarrollo integrado (IDE, por sus sigl
 
 
 Visual Studio permite a los desarrolladores crear sitios y aplicaciones web, así como servicios web en cualquier entorno que soporte la plataforma .NET (a partir de la versión .NET 2002). Así, se pueden crear aplicaciones que se comuniquen entre estaciones de trabajo, páginas web, dispositivos móviles, dispositivos embebidos y consolas, entre otros.
-<img src="/imagenes/visual.jpg" width="400px">
+<center><img src="/imagenes/visual.jpg" width="400px"></center>
 
 ## Poniendo en práctica el lenguaje
 
