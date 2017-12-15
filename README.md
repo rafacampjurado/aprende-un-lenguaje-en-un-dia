@@ -10,45 +10,23 @@ Con este ejercicio se pretende despertar el interés por otros lenguajes de prog
 
 Sigue los pasos que se indican a continuación.
 
-## Creación del equipo
-
-Este ejercicio se debe hacer en grupos de 3 alumnos. Uno de ellos será el representante del grupo.
-
-## Forkea forkea
-
-El representante del grupo debe hacer un *fork* de este repositorio para utilizarlo como base.
-
-## Añadiendo colaboradores
-
-El encargado del grupo deberá añadir como colaboradores del repositorio *forkeado* a los otros dos miembros, para trabajar todos sobre los mismos archivos. Cuando alguien es colaborador en un repositorio, puede hacer *push* a él sin necesidad de pedir permiso o hacer *pull request*.
-
-Para añadir colaboradores hay que hacer click en la pestaña *Settings* y seleccionar luego *Collaborators* en el menú.
 
 ## Miembros del grupo
 
-Escribe aquí los miembros del grupo. El primero es el representante o encargado.
-
-* Alan Brito
-* Elba Lazo
-* Esteban Quito
-
-## Lenguaje de programación
-
-El profesor llevará una cajita llena de papelitos con los nombres de distintos lenguajes de programación. Los encargados de cada grupo meterán la mano en la caja y sacarán dos papelitos, de los cuales el grupo elegirá uno. Se permite hacer intercambio de papelitos entre grupos.
-
-Escribe el lenguaje de programación elegido por el grupo.
-
-* Mi lenguaje
-
-Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf).
+* Rafael Campos Jurado
+* Raul Moreno Montiel
+* Germán Zambrana Ruiz
 
 ## Información sobre el lenguaje
 
-Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe aquí las principales características: cuándo y para qué se creó, en qué ámbito se utiliza, cuáles son sus principales ventajas, etc. Pon aquí enlaces y capturas de pantalla.
+Nuestro equipo ha seleccionado el lenguaje de programación C#.
+C# (pronunciado si sharp en inglés) es un lenguaje de programación orientado a objetos desarrollado y estandarizado por Microsoft como parte de su plataforma .NET, que después fue aprobado como un estándar por la ECMA (ECMA-334) e ISO (ISO/IEC 23270). C# es uno de los lenguajes de programación diseñados para la infraestructura de lenguaje común.
+
+Su sintaxis básica deriva de C/C++ y utiliza el modelo de objetos de la plataforma .NET, similar al de Java, aunque incluye mejoras derivadas de otros lenguajes.
 
 ## Herramientas de desarrollo
 
-Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
+Para Windows y Linux  utilizaremos el IDE Visual Studio Code.
 
 ## Poniendo en práctica el lenguaje
 
