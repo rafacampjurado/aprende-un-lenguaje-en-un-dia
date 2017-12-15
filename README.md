@@ -29,7 +29,7 @@ Su sintaxis básica deriva de C/C++ y utiliza el modelo de objetos de la platafo
 Para Windows y Linux  utilizaremos el IDE Visual Studio Code.
 ### Visual Studio Code
 Microsoft Visual Studio es un entorno de desarrollo integrado (IDE, por sus siglas en inglés) para sistemas operativos Windows. Soporta múltiples lenguajes de programación, tales como C++, C#, Visual Basic .NET, F#, Java, Python, Ruby y PHP, al igual que entornos de desarrollo web, como ASP.NET MVC, Django, etc., a lo cual hay que sumarle las nuevas capacidades online bajo Windows Azure en forma del editor Monaco.
-<img src="/imagenes/visual.png" width="400px">
+<img src="/imagenes/visual.png">
 
 Visual Studio permite a los desarrolladores crear sitios y aplicaciones web, así como servicios web en cualquier entorno que soporte la plataforma .NET (a partir de la versión .NET 2002). Así, se pueden crear aplicaciones que se comuniquen entre estaciones de trabajo, páginas web, dispositivos móviles, dispositivos embebidos y consolas, entre otros.
 
