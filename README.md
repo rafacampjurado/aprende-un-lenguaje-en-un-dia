@@ -49,7 +49,7 @@ namespace HolaMundo
     }
 }
 ````
-<img src ="/imagenes/Hworld.jpg"  width = "340px">
+<img src ="/imagenes/Hworld1.jpg"  width = "340px">
 
 
 ### 2. Pirámide
