@@ -36,8 +36,20 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 
 Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
 ```C#
+using System;
 
+namespace HolaMundo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("HOLA MUNDO!");
+        }
+    }
+}
 ´´´
+<img src ="/imagenes/Hworld.jpg"  width = "240px">
 
 
 ### 2. Pirámide
