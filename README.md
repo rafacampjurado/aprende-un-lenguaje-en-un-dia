@@ -55,6 +55,69 @@ namespace HolaMundo
 ### 2. Pirámide
 
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
+````C#
+using System;
+
+using System.Collections.Generic;
+using System.Text;
+
+namespace PiramideAsteriscos
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Console.WriteLine("Programa que crea una pirámide de asteriscos");
+            inicio:
+            Console.WriteLine("inserta en número el nivel de la pirámide, mayor a cero");
+            try
+            {
+                int nivel = int.Parse(Console.ReadLine());
+                if (nivel != 0)
+                {
+
+                    int a;
+                    int espacios;
+                    for (int i = 1; i <= nivel; i++)
+                    {
+                        StringBuilder final = new StringBuilder();
+
+                        espacios = nivel - i;
+                        a = i + (i - 1);
+                        for (int i1 = 0; i1 < espacios; i1++)
+                            final.Append(" ");
+
+                        for (int i2 = 0; i2 < a; i2++)
+                            final.Append("*");
+
+                        Console.WriteLine(final.ToString());
+
+                    }
+                }
+                else
+                {
+                    System.Console.Clear();
+                    goto inicio;
+                }
+               
+            }
+            catch (Exception )
+            {
+                System.Console.Clear();
+                Console.WriteLine("El programa solo acepta números enteros");
+                goto inicio;
+               
+            }
+
+            
+            Console.WriteLine("" + "\n" + "Aprieta una tecla para salir");
+            Console.ReadLine();
+        }
+    }
+}
+````
+<img src="/imagenes/piramide.jpg" width="700px">
 
 ### 3. Arrays y números aleatorios
 
