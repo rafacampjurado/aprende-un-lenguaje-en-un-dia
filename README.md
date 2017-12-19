@@ -128,6 +128,72 @@ namespace PiramideAsteriscos
 ### 3. Arrays y números aleatorios
 
 Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
+````C#
+using System;
+
+using System.Collections.Generic;
+using System.Text;
+
+namespace primos
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random aleatorio = new Random();
+            int [] registro = new int [20];
+            int [] noPrimo = new int [20];
+            int [] ordenado = new int [20];
+            bool esPrimo;
+            esPrimo = true;
+            int posiciones =0;
+            int contadorPrimos=0;
+            for (int i = 0; i < 20; i++){
+                registro [i] = aleatorio.Next(0,100)+1;            
+                }
+            Console.WriteLine ("Array Original");
+            for (int i = 0; i < 20; i++){
+               Console.Write (registro [i] +" ");            
+                } 
+        Console.WriteLine (" "); 
+        Console.WriteLine ("---------------------------------");
+            for (int i = 0; i < 20; i++) {
+                esPrimo = true;
+                for (int j = 2; j < registro[i]; j++) {
+                    if (registro[i] % j == 0) {
+                        esPrimo = false;
+                    }
+                }
+                if (!esPrimo) {
+                    noPrimo [posiciones] = registro [i];
+                    posiciones++;
+                }
+                if (esPrimo) {
+                    ordenado [contadorPrimos] = registro [i];
+                    contadorPrimos++;
+                }
+            }
+ Console.WriteLine ("Array Ordenado");
+            for (int i = 0; i < 20; i++){
+                if (ordenado [i] ==0){
+               break;            
+                }else Console.Write (ordenado [i]+" ");
+            }
+
+             for (int i = 0; i < 20; i++){
+                if (noPrimo [i] ==0){
+               break;            
+                }else Console.Write (noPrimo [i]+ " ");
+             }
+    
+
+        
+
+        }
+    }
+}
+````
+<img src="/imagenes/array.jpg" width="700px">
 
 ## Presentación de resultados
 
