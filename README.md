@@ -19,7 +19,7 @@ Sigue los pasos que se indican a continuación.
 
 ## Información sobre el lenguaje
 
-Nuestro equipo ha seleccionado el lenguaje de programación C#.
+Nuestro equipo ha seleccionado el lenguaje de programación C#.<br>
 C# (pronunciado si sharp en inglés) es un lenguaje de programación orientado a objetos desarrollado y estandarizado por Microsoft como parte de su plataforma .NET, que después fue aprobado como un estándar por la ECMA (ECMA-334) e ISO (ISO/IEC 23270). C# es uno de los lenguajes de programación diseñados para la infraestructura de lenguaje común.
 
 Su sintaxis básica deriva de C/C++ y utiliza el modelo de objetos de la plataforma .NET, similar al de Java, aunque incluye mejoras derivadas de otros lenguajes.
