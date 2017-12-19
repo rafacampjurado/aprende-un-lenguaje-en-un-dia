@@ -193,7 +193,7 @@ namespace primos
     }
 }
 ````
-<img src="/imagenes/array.jpg" width="700px">
+<img src="/imagenes/array.jpg" >
 
 ## Presentación de resultados
 
